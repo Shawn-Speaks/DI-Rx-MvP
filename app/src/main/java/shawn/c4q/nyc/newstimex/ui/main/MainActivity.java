@@ -1,25 +1,45 @@
 package shawn.c4q.nyc.newstimex.ui.main;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
 import android.widget.TextView;
 
 import butterknife.BindView;
-import butterknife.ButterKnife;
 import butterknife.OnClick;
 import shawn.c4q.nyc.newstimex.R;
+import shawn.c4q.nyc.newstimex.ui.base.BaseActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseActivity {
 
     @BindView(R.id.myTextView) TextView mTextView;
     @BindView(R.id.myButton) Button mButton;
 
+
+
+
+    @Override
+    protected void setLayoutId() {
+        layoutId = R.layout.activity_main;
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        ButterKnife.bind(this);
+    }
+
+    @Override
+    protected void killPresenter() {
+
+    }
+
+    @Override
+    protected void setupPresenter() {
+
+    }
+
+    @Override
+    protected void setupInjector() {
+
     }
 
     @OnClick(R.id.myButton)void clicked(){

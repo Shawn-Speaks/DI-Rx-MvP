@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="news_item_width">128dp</dimen>
+    <dimen name="news_item_height">200dp</dimen>
+    <dimen name="news_item_textview_padding">8dp</dimen>
+
+</resources>

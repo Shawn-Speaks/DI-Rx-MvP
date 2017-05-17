@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/nl.qbusict/cupboard/2.1.4/ba5bc66fad1fc20aeb8a74f0013b04185fd9a3a9/cupboard-2.1.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ba5bc66fad1fc20aeb8a74f0013b04185fd9a3a9">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/dex/debug/folders/1000/10/cupboard-2.1.4_f902c5e510e833f22991b9da21de95d6a7394074/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2683254b272bb7e6e3846c41a722d372b138cc5f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.3.0/af000bec2036a2a9d07197c4b03b8966bfc60b03/rxjava-1.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="af000bec2036a2a9d07197c4b03b8966bfc60b03">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-1.3.0_bc3ad71a83f82fde758f4de0f3ace1bca1745e23/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shawnspeaks/.android/build-cache/5fd478c4a9e4adafef09ad955992c75f2db1e8bd/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="26b6f0185cbba8917ba9d9d0bd170f95311622ab">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8e3d9729918c5404a92eabb17aa4833c465e5bd2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.8.0/5a11f020cce2d11eb71ba916700600e18c4547e7/okhttp-3.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5a11f020cce2d11eb71ba916700600e18c4547e7">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.8.0_c18b36566e85f7558d5cca3eec1ee5a667b065e5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.7.2/20f6463eb19ac61960c5d91a094c2f4f0727dc2e/okhttp-2.7.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="20f6463eb19ac61960c5d91a094c2f4f0727dc2e">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-2.7.2_68108a601979c62b6d56771de5b8a98780b17467/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.3.0/43e4ac24adc40a24c51b2d2a71a2483ef1b0ce9a/adapter-rxjava-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="43e4ac24adc40a24c51b2d2a71a2483ef1b0ce9a">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/dex/debug/folders/1000/10/adapter-rxjava-2.3.0_3e8519ed2e89f89528343c432e3ca966280ac41a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shawnspeaks/.android/build-cache/fc78f8ac187d110bcbbc704ce84775426ef8896e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="50a9ed5f12a9c5edfc99f3a051d9f5f93d2daf22">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b9aedaafb5d6cb4323467ef50b98b30b3e2d1efb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.13.0_7b145914e26072d00b2ac26f932c0f6b347d2f9f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.3.0/bcacde6a8ccedcc56c127403d26b76072fe6214d/retrofit-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bcacde6a8ccedcc56c127403d26b76072fe6214d">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.3.0_16b035ed9ce21bd00cc34d6a6f50d15b56aa9ac5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/dex/debug/folders/1000/10/jsr305-2.0.1_7f8ccf0d9638ae6b240275eeacdb53fee138a637/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shawnspeaks/.android/build-cache/0d4920ed5a81fc1eda3fc702d6a72cf3caf8b42a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6509f714f99e97cd5e677d659a98d599cd122562/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.2/2bf96b7aa8b611c177d329452af1dc933e14501c/commons-cli-1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2bf96b7aa8b611c177d329452af1dc933e14501c">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/dex/debug/folders/1000/10/commons-cli-1.2_4936b6b636fb444910daaa588af2edf864afa8ee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e2d8f860cc8c2be2a13d32ca5e95e3b22dc6661">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_6ac410a95c8a21b94ae61006cf8dd76d953ae8bc/classes.dex" />
+    </item>
+
+</items>
