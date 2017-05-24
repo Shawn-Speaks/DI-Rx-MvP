@@ -24,7 +24,9 @@ public class ComponentInitializer extends Application {
                 .appModule(new AppModule(this))
                 .networkModule(new NetworkModule())
                 .build();
-//        return null;
     }
 
+    public ApplicationComponent getComponent() {
+        return component;
+    }
 }

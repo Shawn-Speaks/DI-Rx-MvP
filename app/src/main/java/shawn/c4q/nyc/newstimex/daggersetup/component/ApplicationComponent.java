@@ -5,19 +5,33 @@ import javax.inject.Singleton;
 import dagger.Component;
 import shawn.c4q.nyc.newstimex.daggersetup.modules.AppModule;
 import shawn.c4q.nyc.newstimex.daggersetup.modules.NetworkModule;
-import shawn.c4q.nyc.newstimex.ui.main.MainActivity;
 
 /**
  * Created by shawnspeaks on 5/23/17.
  */
 @Singleton
-@Component(
-        modules = {
+@Component(modules = {
                 AppModule.class,
                 NetworkModule.class
         })
 public interface ApplicationComponent {
 
-    void inject(MainActivity activity);
+    /**
+     * @param activity
+     */
+//    void inject(MainActivity activity);
+
+//    final class Initializer{
+//
+//        private Initializer(){
+//
+//        }
+//        public static ApplicationComponent init(Activity activity){
+//            return DaggerAppComponent.builder()
+//                    .appModule(new AppModule(this))
+//                    .networkModule(new NetworkModule())
+//                    .build();
+//        }
+//    }
 
 }

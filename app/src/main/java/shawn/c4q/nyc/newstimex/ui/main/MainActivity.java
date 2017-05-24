@@ -20,7 +20,8 @@ public class MainActivity extends BaseActivity implements MainView {
     @BindView(R.id.myTextView) TextView mTextView;
     @BindView(R.id.myButton) Button mButton;
 
-    @Inject MainPressenter presenter;
+    @Inject
+    MainPresenter presenter;
 
     private ApplicationComponent component;
 
@@ -53,7 +54,8 @@ public class MainActivity extends BaseActivity implements MainView {
 
     @Override
     protected void setupInjector() {
-
+//        component = ApplicationComponent.Initializer.init(this);
+//        component.inject(this);
     }
 
     @OnClick(R.id.myButton)void clicked(){
