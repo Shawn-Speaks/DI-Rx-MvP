@@ -10,8 +10,10 @@ import javax.inject.Inject;
 
 import butterknife.BindView;
 import butterknife.OnClick;
+import retrofit2.Retrofit;
 import shawn.c4q.nyc.newstimex.R;
 import shawn.c4q.nyc.newstimex.daggersetup.component.ApplicationComponent;
+import shawn.c4q.nyc.newstimex.daggersetup.component.BaseComponent;
 import shawn.c4q.nyc.newstimex.model.Sources;
 import shawn.c4q.nyc.newstimex.ui.base.BaseActivity;
 
@@ -20,8 +22,8 @@ public class MainActivity extends BaseActivity implements MainView {
     @BindView(R.id.myTextView) TextView mTextView;
     @BindView(R.id.myButton) Button mButton;
 
-    @Inject
-    MainPresenter presenter;
+    @Inject MainPresenter presenter;
+    @Inject Retrofit retrofit;
 
     private ApplicationComponent component;
 
@@ -41,6 +43,11 @@ public class MainActivity extends BaseActivity implements MainView {
     }
 
     @Override
+    public BaseComponent component() {
+        return component;
+    }
+
+    @Override
     protected void killPresenter() {
         presenter.unbindView();
         presenter.destroy();
@@ -54,8 +61,9 @@ public class MainActivity extends BaseActivity implements MainView {
 
     @Override
     protected void setupInjector() {
-//        component = ApplicationComponent.Initializer.init(this);
-//        component.inject(this);
+//        ((ComponentInitializer) getApplication()).getComponent().inject(this);
+        component = ApplicationComponent.Initializer.init(this);
+        component.inject(this);
     }
 
     @OnClick(R.id.myButton)void clicked(){

@@ -5,6 +5,7 @@ import android.support.annotation.LayoutRes;
 import android.support.v7.app.AppCompatActivity;
 
 import butterknife.ButterKnife;
+import shawn.c4q.nyc.newstimex.daggersetup.component.BaseComponent;
 
 /**
  * Created by shawnspeaks on 5/16/17.
@@ -30,6 +31,8 @@ public abstract class BaseActivity extends AppCompatActivity {
         super.onDestroy();
         killPresenter();
     }
+
+    public abstract BaseComponent component();
 
     protected abstract void killPresenter();
 
