@@ -1,8 +1,7 @@
 package shawn.c4q.nyc.newstimex.data;
 
-import java.util.List;
 
-import io.reactivex.Single;
+import io.reactivex.Observable;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
 import shawn.c4q.nyc.newstimex.model.SourcesResponse;
@@ -18,9 +17,9 @@ public interface NewsApi {
 //    Observable<SourcesResponse> fetchNewsSources();
 
     @GET("sources")
-    Single<List<SourcesResponse>> fetchNewsSources();
+    Observable<SourcesResponse> fetchNewsSources();
 
 
     @GET("sources?")
-    Single<List<SourcesResponse>> getNewsSourcesWithLanguage(@Query("language") String language);
+    Observable<SourcesResponse> getNewsSourcesWithLanguage(@Query("language") String language);
 }

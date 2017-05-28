@@ -21,12 +21,13 @@ public class MainPresenter extends BasePresenter<MainView> {
     @Override
     public void initialize() {
         view.showLoading();
+//        data subscription here
+
     }
 
     @Override
     public void destroy() {
         unbindView();
     }
-
 
 }

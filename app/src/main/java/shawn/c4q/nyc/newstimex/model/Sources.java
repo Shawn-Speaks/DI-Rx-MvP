@@ -7,6 +7,7 @@ package shawn.c4q.nyc.newstimex.model;
 public class Sources {
 
     private String id;
+    private String name;
     private String description;
     private String imgUrl;
     private String category;
@@ -25,5 +26,9 @@ public class Sources {
 
     public String getCategory() {
         return category;
+    }
+
+    public String getName() {
+        return name;
     }
 }

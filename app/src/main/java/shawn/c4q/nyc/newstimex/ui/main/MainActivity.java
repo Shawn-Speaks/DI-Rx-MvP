@@ -1,31 +1,35 @@
 package shawn.c4q.nyc.newstimex.ui.main;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
-import java.util.List;
+import java.io.File;
 
 import javax.inject.Inject;
 
 import butterknife.BindView;
 import butterknife.OnClick;
-import retrofit2.Retrofit;
 import shawn.c4q.nyc.newstimex.R;
-import shawn.c4q.nyc.newstimex.daggersetup.component.ApplicationComponent;
+import shawn.c4q.nyc.newstimex.daggersetup.component.ActivityComponent;
 import shawn.c4q.nyc.newstimex.daggersetup.component.BaseComponent;
-import shawn.c4q.nyc.newstimex.model.Sources;
+import shawn.c4q.nyc.newstimex.daggersetup.component.DaggerActivityComponent;
+import shawn.c4q.nyc.newstimex.daggersetup.modules.NetworkModule;
+import shawn.c4q.nyc.newstimex.model.SourcesResponse;
 import shawn.c4q.nyc.newstimex.ui.base.BaseActivity;
 
 public class MainActivity extends BaseActivity implements MainView {
 
     @BindView(R.id.myTextView) TextView mTextView;
     @BindView(R.id.myButton) Button mButton;
+    @BindView(R.id.progress_bar) ProgressBar progressBar;
 
     @Inject MainPresenter presenter;
-    @Inject Retrofit retrofit;
 
-    private ApplicationComponent component;
+    private ActivityComponent component;
 
 
     @Override
@@ -55,35 +59,41 @@ public class MainActivity extends BaseActivity implements MainView {
 
     @Override
     protected void setupPresenter() {
-        presenter.initialize();
         presenter.bindView(this);
+        presenter.initialize();
     }
 
     @Override
     protected void setupInjector() {
-//        ((ComponentInitializer) getApplication()).getComponent().inject(this);
-        component = ApplicationComponent.Initializer.init(this);
+        File cacheFile = new File(getCacheDir(), "responses");
+        component = DaggerActivityComponent.builder()
+                .networkModule(new NetworkModule(cacheFile))
+                .build();
+
         component.inject(this);
+
     }
 
     @OnClick(R.id.myButton)void clicked(){
         int number = Integer.parseInt(mTextView.getText().toString());
+        if(number == 5){hideLoading();}
+        if(number > 6){showLoading();}
         mTextView.setText(String.valueOf(number+1));
     }
 
     @Override
     public void showLoading() {
-
+        Toast.makeText(this, " I'm a toast! ", Toast.LENGTH_SHORT).show();
     }
 
     @Override
     public void hideLoading() {
-
+        progressBar.setVisibility(View.GONE);
     }
 
     @Override
-    public void revealNews(List<Sources> sources) {
-
+    public void revealNews(SourcesResponse sourcesResponse) {
+        hideLoading();
     }
 
     @Override

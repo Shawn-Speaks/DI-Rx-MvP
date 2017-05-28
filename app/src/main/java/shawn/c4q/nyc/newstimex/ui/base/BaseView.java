@@ -5,4 +5,7 @@ package shawn.c4q.nyc.newstimex.ui.base;
  */
 
 public interface BaseView {
+
+    // ADDED FOR TYPE SAFETY
+
 }

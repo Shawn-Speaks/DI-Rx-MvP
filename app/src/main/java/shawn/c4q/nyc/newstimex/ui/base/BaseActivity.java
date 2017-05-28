@@ -32,6 +32,8 @@ public abstract class BaseActivity extends AppCompatActivity {
         killPresenter();
     }
 
+
+    // used only if we need reference to the component (Activity Component 'most likely used in fragment' )
     public abstract BaseComponent component();
 
     protected abstract void killPresenter();
