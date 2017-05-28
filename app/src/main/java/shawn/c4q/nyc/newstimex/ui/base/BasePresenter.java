@@ -12,7 +12,7 @@ public abstract class BasePresenter<V extends BaseView> {
 
     public abstract void destroy();
 
-    public <T extends V> void bindBiew(T view){
+    public <T extends V> void bindView(T view){
         this.view = view;
     }
 
