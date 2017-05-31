@@ -1,9 +1,12 @@
 package shawn.c4q.nyc.newstimex.data;
 
 
+import java.util.List;
+
 import io.reactivex.Observable;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
+import shawn.c4q.nyc.newstimex.model.Sources;
 import shawn.c4q.nyc.newstimex.model.SourcesResponse;
 
 /**
@@ -17,7 +20,7 @@ public interface NewsApi {
 //    Observable<SourcesResponse> fetchNewsSources();
 
     @GET("sources")
-    Observable<SourcesResponse> fetchNewsSources();
+    Observable<List<Sources>> fetchNewsSources();
 
 
     @GET("sources?")

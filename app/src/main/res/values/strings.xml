@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">NewsTimeX</string>
     <string name="place_holder">place holder txt</string>
+    <string name="network_error">NETWORK ERROR</string>
 </resources>

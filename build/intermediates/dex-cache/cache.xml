@@ -3,12 +3,48 @@
 
     <item
         is-multidex="true"
+        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/annotations/4.0.0-RC0/d5dd0afc50069b7fa0fc12ac85f91efa8df4db67/annotations-4.0.0-RC0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d5dd0afc50069b7fa0fc12ac85f91efa8df4db67">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/dex/debug/folders/1000/10/annotations-4.0.0-RC0_7e65f775250a8fa24b23cc6f81e99d408ba874f9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
         sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
         <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2683254b272bb7e6e3846c41a722d372b138cc5f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/gifdecoder/4.0.0-RC0/c64f5d4805b528de434a5a8bb9a8091b6f9cd1a7/gifdecoder-4.0.0-RC0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c64f5d4805b528de434a5a8bb9a8091b6f9cd1a7">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/dex/debug/folders/1000/10/gifdecoder-4.0.0-RC0_54e464cddea164edd71a04859708c45fb4c5896c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/4.0.0-RC0/eb86cd1d96acc30dcebf338abaf2c62ca28bf355/glide-4.0.0-RC0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="eb86cd1d96acc30dcebf338abaf2c62ca28bf355">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-4.0.0-RC0_4e85ee216f1b84dd1186aefce57a0780f8f80724/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/disklrucache/4.0.0-RC0/46d23cdc19155c5f0d47ece99ca1c421346c1509/disklrucache-4.0.0-RC0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="46d23cdc19155c5f0d47ece99ca1c421346c1509">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/dex/debug/folders/1000/10/disklrucache-4.0.0-RC0_ee38cfebabc09e53f1fd8b1ddca2c57e8a819cfd/classes.dex" />
     </item>
     <item
         is-multidex="true"

@@ -1,6 +1,8 @@
 package shawn.c4q.nyc.newstimex.ui.main;
 
-import shawn.c4q.nyc.newstimex.model.SourcesResponse;
+import java.util.List;
+
+import shawn.c4q.nyc.newstimex.model.Sources;
 import shawn.c4q.nyc.newstimex.ui.base.BaseView;
 
 /**
@@ -11,7 +13,6 @@ public interface MainView extends BaseView {
 
     void showLoading();
     void hideLoading();
-    void revealNews(SourcesResponse sourcesResponse);
     void revealError(String errorMessage);
-
+    void getsNewsSourceSuccess(List<Sources> sources);
 }

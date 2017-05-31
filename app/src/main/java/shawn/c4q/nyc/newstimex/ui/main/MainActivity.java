@@ -1,31 +1,33 @@
 package shawn.c4q.nyc.newstimex.ui.main;
 
 import android.os.Bundle;
+import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.File;
+import java.util.List;
 
 import javax.inject.Inject;
 
 import butterknife.BindView;
-import butterknife.OnClick;
 import shawn.c4q.nyc.newstimex.R;
 import shawn.c4q.nyc.newstimex.daggersetup.component.ActivityComponent;
 import shawn.c4q.nyc.newstimex.daggersetup.component.BaseComponent;
 import shawn.c4q.nyc.newstimex.daggersetup.component.DaggerActivityComponent;
 import shawn.c4q.nyc.newstimex.daggersetup.modules.NetworkModule;
-import shawn.c4q.nyc.newstimex.model.SourcesResponse;
+import shawn.c4q.nyc.newstimex.model.Sources;
 import shawn.c4q.nyc.newstimex.ui.base.BaseActivity;
 
 public class MainActivity extends BaseActivity implements MainView {
 
-    @BindView(R.id.myTextView) TextView mTextView;
-    @BindView(R.id.myButton) Button mButton;
+    private static final int NUMBER_OF_RECYCLER_COLUMNS = 3;
     @BindView(R.id.progress_bar) ProgressBar progressBar;
+    @BindView(R.id.newsList) RecyclerView recyclerView;
+    @BindView(R.id.network_error_textView) TextView errorTextView;
 
     @Inject MainPresenter presenter;
 
@@ -40,9 +42,7 @@ public class MainActivity extends BaseActivity implements MainView {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-
-
+        initRV();
         presenter.initialize();
     }
 
@@ -74,16 +74,9 @@ public class MainActivity extends BaseActivity implements MainView {
 
     }
 
-    @OnClick(R.id.myButton)void clicked(){
-        int number = Integer.parseInt(mTextView.getText().toString());
-        if(number == 5){hideLoading();}
-        if(number > 6){showLoading();}
-        mTextView.setText(String.valueOf(number+1));
-    }
-
     @Override
     public void showLoading() {
-        Toast.makeText(this, " I'm a toast! ", Toast.LENGTH_SHORT).show();
+        progressBar.setVisibility(View.VISIBLE);
     }
 
     @Override
@@ -91,13 +84,21 @@ public class MainActivity extends BaseActivity implements MainView {
         progressBar.setVisibility(View.GONE);
     }
 
-    @Override
-    public void revealNews(SourcesResponse sourcesResponse) {
-        hideLoading();
-    }
 
     @Override
     public void revealError(String errorMessage) {
+        errorTextView.setVisibility(View.VISIBLE);
+    }
 
+    @Override
+    public void getsNewsSourceSuccess(List<Sources> sources) {
+        NewsAdapter adapter = new NewsAdapter(sources, getApplicationContext());
+        Toast.makeText(this, String.valueOf(adapter.getItemCount()) , Toast.LENGTH_SHORT).show();
+        recyclerView.setAdapter(adapter);
+        recyclerView.setVisibility(View.VISIBLE);
+    }
+
+    private void initRV(){
+        recyclerView.setLayoutManager(new GridLayoutManager(this, NUMBER_OF_RECYCLER_COLUMNS));
     }
 }
