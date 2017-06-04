@@ -9,7 +9,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.File;
-import java.util.List;
 
 import javax.inject.Inject;
 
@@ -19,7 +18,7 @@ import shawn.c4q.nyc.newstimex.daggersetup.component.ActivityComponent;
 import shawn.c4q.nyc.newstimex.daggersetup.component.BaseComponent;
 import shawn.c4q.nyc.newstimex.daggersetup.component.DaggerActivityComponent;
 import shawn.c4q.nyc.newstimex.daggersetup.modules.NetworkModule;
-import shawn.c4q.nyc.newstimex.model.Sources;
+import shawn.c4q.nyc.newstimex.model.SourcesResponse;
 import shawn.c4q.nyc.newstimex.ui.base.BaseActivity;
 
 public class MainActivity extends BaseActivity implements MainView {
@@ -87,12 +86,13 @@ public class MainActivity extends BaseActivity implements MainView {
 
     @Override
     public void revealError(String errorMessage) {
+        progressBar.setVisibility(View.GONE);
         errorTextView.setVisibility(View.VISIBLE);
     }
 
     @Override
-    public void getsNewsSourceSuccess(List<Sources> sources) {
-        NewsAdapter adapter = new NewsAdapter(sources, getApplicationContext());
+    public void getsNewsSourceSuccess(SourcesResponse sourcesResponse) {
+        NewsAdapter adapter = new NewsAdapter(sourcesResponse.getSourcesList(), getApplicationContext());
         Toast.makeText(this, String.valueOf(adapter.getItemCount()) , Toast.LENGTH_SHORT).show();
         recyclerView.setAdapter(adapter);
         recyclerView.setVisibility(View.VISIBLE);

@@ -1,5 +1,8 @@
 package shawn.c4q.nyc.newstimex.data;
 
+import io.reactivex.android.schedulers.AndroidSchedulers;
+import io.reactivex.disposables.Disposable;
+import io.reactivex.schedulers.Schedulers;
 import shawn.c4q.nyc.newstimex.model.SourcesResponse;
 
 /**
@@ -14,18 +17,12 @@ public class NewsService {
     }
 
 
-//    public Disposable getNewsSources(final GetNewsSourceCallBack callback){
-//        return newsApi.fetchNewsSources()
-//                .subscribeOn(Schedulers.io())
-//                .observeOn(AndroidSchedulers.mainThread())
-//                .onErrorResumeNext(new Function<Throwable, ObservableSource<? extends SourcesResponse>>() {
-//                    @Override
-//                    public ObservableSource<? extends SourcesResponse> apply(Throwable throwable) throws Exception {
-//                        return Observable.error(throwable);
-//                    }
-//                })
-//                .subscribe();
-//    }
+    public Disposable getNewsSources(final GetNewsSourceCallBack callback){
+        return newsApi.fetchNewsSources()
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe();
+    }
 
     public interface GetNewsSourceCallBack{
         void onSuccess(SourcesResponse sourcesResponse);
