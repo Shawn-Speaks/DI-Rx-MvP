@@ -1,31 +1,36 @@
 package shawn.c4q.nyc.newstimex.ui.main;
 
 import android.os.Bundle;
-import android.widget.Button;
+import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.view.View;
+import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
-import java.util.List;
+import java.io.File;
 
 import javax.inject.Inject;
 
 import butterknife.BindView;
-import butterknife.OnClick;
-import retrofit2.Retrofit;
 import shawn.c4q.nyc.newstimex.R;
-import shawn.c4q.nyc.newstimex.daggersetup.component.ApplicationComponent;
+import shawn.c4q.nyc.newstimex.daggersetup.component.ActivityComponent;
 import shawn.c4q.nyc.newstimex.daggersetup.component.BaseComponent;
-import shawn.c4q.nyc.newstimex.model.Sources;
+import shawn.c4q.nyc.newstimex.daggersetup.component.DaggerActivityComponent;
+import shawn.c4q.nyc.newstimex.daggersetup.modules.NetworkModule;
+import shawn.c4q.nyc.newstimex.model.SourcesResponse;
 import shawn.c4q.nyc.newstimex.ui.base.BaseActivity;
 
 public class MainActivity extends BaseActivity implements MainView {
 
-    @BindView(R.id.myTextView) TextView mTextView;
-    @BindView(R.id.myButton) Button mButton;
+    private static final int NUMBER_OF_RECYCLER_COLUMNS = 3;
+    @BindView(R.id.progress_bar) ProgressBar progressBar;
+    @BindView(R.id.newsList) RecyclerView recyclerView;
+    @BindView(R.id.network_error_textView) TextView errorTextView;
 
     @Inject MainPresenter presenter;
-    @Inject Retrofit retrofit;
 
-    private ApplicationComponent component;
+    private ActivityComponent component;
 
 
     @Override
@@ -36,9 +41,7 @@ public class MainActivity extends BaseActivity implements MainView {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-
-
+        initRV();
         presenter.initialize();
     }
 
@@ -55,39 +58,47 @@ public class MainActivity extends BaseActivity implements MainView {
 
     @Override
     protected void setupPresenter() {
-        presenter.initialize();
         presenter.bindView(this);
+        presenter.initialize();
     }
 
     @Override
     protected void setupInjector() {
-//        ((ComponentInitializer) getApplication()).getComponent().inject(this);
-        component = ApplicationComponent.Initializer.init(this);
-        component.inject(this);
-    }
+        File cacheFile = new File(getCacheDir(), "responses");
+        component = DaggerActivityComponent.builder()
+                .networkModule(new NetworkModule(cacheFile))
+                .build();
 
-    @OnClick(R.id.myButton)void clicked(){
-        int number = Integer.parseInt(mTextView.getText().toString());
-        mTextView.setText(String.valueOf(number+1));
+        component.inject(this);
+
     }
 
     @Override
     public void showLoading() {
-
+        progressBar.setVisibility(View.VISIBLE);
     }
 
     @Override
     public void hideLoading() {
-
+        progressBar.setVisibility(View.GONE);
     }
 
-    @Override
-    public void revealNews(List<Sources> sources) {
-
-    }
 
     @Override
     public void revealError(String errorMessage) {
+        progressBar.setVisibility(View.GONE);
+        errorTextView.setVisibility(View.VISIBLE);
+    }
 
+    @Override
+    public void getsNewsSourceSuccess(SourcesResponse sourcesResponse) {
+        NewsAdapter adapter = new NewsAdapter(sourcesResponse.getSourcesList(), getApplicationContext());
+        Toast.makeText(this, String.valueOf(adapter.getItemCount()) , Toast.LENGTH_SHORT).show();
+        recyclerView.setAdapter(adapter);
+        recyclerView.setVisibility(View.VISIBLE);
+    }
+
+    private void initRV(){
+        recyclerView.setLayoutManager(new GridLayoutManager(this, NUMBER_OF_RECYCLER_COLUMNS));
     }
 }

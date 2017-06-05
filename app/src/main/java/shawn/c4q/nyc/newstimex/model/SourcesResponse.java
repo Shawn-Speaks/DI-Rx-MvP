@@ -1,5 +1,8 @@
 package shawn.c4q.nyc.newstimex.model;
 
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
+
 import java.util.ArrayList;
 
 /**
@@ -7,10 +10,19 @@ import java.util.ArrayList;
  */
 
 public class SourcesResponse {
+    @SerializedName("status")
+    @Expose
+    private String status;
+    @SerializedName("sources")
+    @Expose
+    private ArrayList<Sources> sourcesList;
 
-    private ArrayList<Sources> sourcesList = new ArrayList<Sources>();
 
     public ArrayList<Sources> getSourcesList() {
         return sourcesList;
+    }
+
+    public String getStatus() {
+        return status;
     }
 }

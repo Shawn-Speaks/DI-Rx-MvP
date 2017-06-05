@@ -5,4 +5,7 @@ package shawn.c4q.nyc.newstimex.daggersetup.component;
  */
 
 public interface BaseComponent {
+
+    //ADDED FOR TYPE SAFETY
+
 }
