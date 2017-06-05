@@ -16,7 +16,6 @@ import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 import shawn.c4q.nyc.newstimex.data.NewsApi;
-import shawn.c4q.nyc.newstimex.data.NewsService;
 
 
 @Module
@@ -62,22 +61,6 @@ public class NetworkModule {
                             .addConverterFactory(GsonConverterFactory.create())
                             .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                             .build();
-    }
-
-
-    @Provides
-    @Singleton
-    @SuppressWarnings("unused")
-    public NewsApi provideNetworkService(Retrofit retrofit){
-        return retrofit.create(NewsApi.class);
-    }
-
-
-    @Provides
-    @Singleton
-    @SuppressWarnings("unused")
-    public NewsService providesService(NewsApi newsApiService){
-        return new NewsService(newsApiService);
     }
 
 }

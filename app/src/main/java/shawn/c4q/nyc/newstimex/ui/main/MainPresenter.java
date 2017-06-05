@@ -4,9 +4,11 @@ import android.util.Log;
 
 import javax.inject.Inject;
 
+import io.reactivex.Observable;
+import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.CompositeDisposable;
+import io.reactivex.schedulers.Schedulers;
 import shawn.c4q.nyc.newstimex.data.NewsApi;
-import shawn.c4q.nyc.newstimex.data.NewsService;
 import shawn.c4q.nyc.newstimex.model.SourcesResponse;
 import shawn.c4q.nyc.newstimex.ui.base.BasePresenter;
 
@@ -18,12 +20,11 @@ public class MainPresenter extends BasePresenter<MainView> {
 
     private static final String TAG = "Error tag";
     private NewsApi newsClient;
-    private NewsService service;
     private CompositeDisposable disposable = new CompositeDisposable();
 
     @Inject
-    public MainPresenter(NewsService service) {
-        this.service = service;
+    public MainPresenter(NewsApi newsClient) {
+        this.newsClient = newsClient;
     }
 
     @Override
@@ -40,61 +41,19 @@ public class MainPresenter extends BasePresenter<MainView> {
         disposable.clear();
     }
 
-//    private void loadNewsSources(){
-//        view.showLoading();
-//        disposable.add(service.getNewsSources(new NewsService.GetNewsSourceCallBack() {
-//            @Override
-//            public void onSuccess(SourcesResponse sourcesResponse) {
-//                view.hideLoading();
-//                view.getsNewsSourceSuccess(sourcesResponse);
-//            }
-//
-//            @Override
-//            public void onError(Throwable error) {
-//                view.hideLoading();
-//                view.revealError(error.toString());
-//                for(int i = 0 ; i < 10; i++){
-//                    Log.e(TAG, "ERRORRERRARERE");
-//                }
-//            }
-//        }));
-//    }
-
     private void loadNews(){
-//        Observable<SourcesResponse> obs = newsClient.fetchNewsSources();
-//        disposable.add(obs.subscribeOn(Schedulers.io())
-//                .observeOn(AndroidSchedulers.mainThread())
-//                .subscribe(this::onWinning, this::onErroring));
-
-        disposable.add(service.getNewsSources(new NewsService.GetNewsSourceCallBack() {
-            @Override
-            public void onSuccess(SourcesResponse sourcesResponse) {
-                onWinning(sourcesResponse);
-            }
-
-            @Override
-            public void onError(Throwable error) {
-                onErroring(error);
-            }
-        }));
-
-
-
-
-
-
+        Observable<SourcesResponse> obs = newsClient.fetchNewsSources();
+        disposable.add(obs.subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(this::onWinning, this::onErroring));
     }
 
-//    private void onWinning(List<Sources> sources) {
-//        view.hideLoading();
-//        view.getsNewsSourceSuccess(sources);
-//    }
 
     private void onErroring(Throwable throwable) {
         for(int i = 0 ; i < 10; i++){
                     Log.e(TAG, "~~~~~~~~~~ ERROR ~~~~~~~~~");
                 }
-        view.revealError("err0r");
+        view.revealError("error");
     }
 
     private void onWinning(SourcesResponse sourcesResponse) {

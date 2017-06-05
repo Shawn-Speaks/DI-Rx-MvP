@@ -3,6 +3,7 @@ package shawn.c4q.nyc.newstimex.daggersetup.component;
 import javax.inject.Singleton;
 
 import dagger.Component;
+import shawn.c4q.nyc.newstimex.daggersetup.modules.HandlerModule;
 import shawn.c4q.nyc.newstimex.daggersetup.modules.NetworkModule;
 import shawn.c4q.nyc.newstimex.ui.main.MainActivity;
 
@@ -11,7 +12,10 @@ import shawn.c4q.nyc.newstimex.ui.main.MainActivity;
  */
 
 @Singleton
-@Component(modules = {NetworkModule.class})
+@Component(modules = {
+        NetworkModule.class,
+        HandlerModule.class
+        })
 public interface ActivityComponent extends BaseComponent {
     void inject(MainActivity activity);
 }
