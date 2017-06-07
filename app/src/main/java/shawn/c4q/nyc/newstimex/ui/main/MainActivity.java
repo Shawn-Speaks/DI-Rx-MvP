@@ -17,6 +17,7 @@ import shawn.c4q.nyc.newstimex.R;
 import shawn.c4q.nyc.newstimex.daggersetup.component.ActivityComponent;
 import shawn.c4q.nyc.newstimex.daggersetup.component.BaseComponent;
 import shawn.c4q.nyc.newstimex.daggersetup.component.DaggerActivityComponent;
+import shawn.c4q.nyc.newstimex.daggersetup.modules.HandlerModule;
 import shawn.c4q.nyc.newstimex.daggersetup.modules.NetworkModule;
 import shawn.c4q.nyc.newstimex.model.SourcesResponse;
 import shawn.c4q.nyc.newstimex.ui.base.BaseActivity;
@@ -67,6 +68,7 @@ public class MainActivity extends BaseActivity implements MainView {
         File cacheFile = new File(getCacheDir(), "responses");
         component = DaggerActivityComponent.builder()
                 .networkModule(new NetworkModule(cacheFile))
+                .handlerModule(new HandlerModule())
                 .build();
 
         component.inject(this);

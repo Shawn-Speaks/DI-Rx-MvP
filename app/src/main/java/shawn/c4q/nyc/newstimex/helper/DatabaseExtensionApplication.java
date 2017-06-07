@@ -14,16 +14,7 @@ public class DatabaseExtensionApplication extends Application {
     public void onCreate(){
         super.onCreate();
 
-        Stetho.InitializerBuilder initializerBuilder = Stetho.newInitializerBuilder(this);
-
-        initializerBuilder.enableWebKitInspector(
-                Stetho.defaultInspectorModulesProvider(this)
-        );
-
-        Stetho.Initializer initializer = initializerBuilder.build();
-
-        Stetho.initialize(initializer);
-
+        Stetho.initializeWithDefaults(this);
     }
 
 

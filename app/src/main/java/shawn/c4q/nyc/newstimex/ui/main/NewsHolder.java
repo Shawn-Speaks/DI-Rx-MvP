@@ -45,7 +45,7 @@ public class NewsHolder extends RecyclerView.ViewHolder{
                 insertFromDrawable = R.drawable.general_img;
                 break;
             case "music":
-                insertFromDrawable = R.drawable.sports_img;
+                insertFromDrawable = R.drawable.music_img;
                 break;
             case "politics":
                 insertFromDrawable = R.drawable.politics_img;
