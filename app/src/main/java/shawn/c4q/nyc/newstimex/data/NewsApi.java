@@ -13,12 +13,8 @@ import shawn.c4q.nyc.newstimex.model.SourcesResponse;
 public interface NewsApi {
     String BASE_URL = "https://newsapi.org/v1/";
 
-//    @GET("sources")
-//    Observable<SourcesResponse> fetchNewsSources();
-
     @GET("sources")
     Observable<SourcesResponse> fetchNewsSources();
-
 
     @GET("sources?")
     Observable<SourcesResponse> getNewsSourcesWithLanguage(@Query("language") String language);

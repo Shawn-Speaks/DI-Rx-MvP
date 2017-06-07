@@ -5,6 +5,7 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 
@@ -28,7 +29,7 @@ public class NewsHolder extends RecyclerView.ViewHolder{
         imageView = (ImageView) itemView.findViewById(R.id.news_image);
     }
 
-    public void bind(Sources source) {
+    public void bind(final Sources source) {
         int insertFromDrawable = R.drawable.technology_img;
         switch(source.getCategory()){
             case "business":
@@ -44,7 +45,7 @@ public class NewsHolder extends RecyclerView.ViewHolder{
                 insertFromDrawable = R.drawable.general_img;
                 break;
             case "music":
-                insertFromDrawable = R.drawable.music_img;
+                insertFromDrawable = R.drawable.sports_img;
                 break;
             case "politics":
                 insertFromDrawable = R.drawable.politics_img;
@@ -62,6 +63,12 @@ public class NewsHolder extends RecyclerView.ViewHolder{
 
         Glide.with(context).load(insertFromDrawable).into(imageView);
         textView.setText(source.getName());
+        itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(context, source.getName(), Toast.LENGTH_SHORT).show();
+            }
+        });
 
 
     }
