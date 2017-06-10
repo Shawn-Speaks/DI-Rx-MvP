@@ -8,6 +8,7 @@ import dagger.Module;
 import dagger.Provides;
 import retrofit2.Retrofit;
 import shawn.c4q.nyc.newstimex.data.NewsApi;
+import shawn.c4q.nyc.newstimex.database.DataBaseHandler;
 import shawn.c4q.nyc.newstimex.database.NewsLocalDatabase;
 
 /**
@@ -25,5 +26,11 @@ public class HandlerModule {
     @Singleton
     public NewsLocalDatabase providesNewsLocalDatabase(Context context){
         return new NewsLocalDatabase(context);
+    }
+
+    @Provides
+    @Singleton
+    public DataBaseHandler providiesDataBaseHandler(NewsLocalDatabase localDatabase){
+        return new DataBaseHandler(localDatabase);
     }
 }
