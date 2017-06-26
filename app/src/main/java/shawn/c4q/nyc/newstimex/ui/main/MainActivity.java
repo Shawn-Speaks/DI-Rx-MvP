@@ -8,17 +8,13 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.io.File;
-
 import javax.inject.Inject;
 
 import butterknife.BindView;
 import shawn.c4q.nyc.newstimex.R;
 import shawn.c4q.nyc.newstimex.daggersetup.component.ActivityComponent;
 import shawn.c4q.nyc.newstimex.daggersetup.component.BaseComponent;
-import shawn.c4q.nyc.newstimex.daggersetup.component.DaggerActivityComponent;
-import shawn.c4q.nyc.newstimex.daggersetup.modules.HandlerModule;
-import shawn.c4q.nyc.newstimex.daggersetup.modules.NetworkModule;
+import shawn.c4q.nyc.newstimex.helper.DatabaseExtensionApplication;
 import shawn.c4q.nyc.newstimex.model.SourcesResponse;
 import shawn.c4q.nyc.newstimex.ui.base.BaseActivity;
 
@@ -65,11 +61,7 @@ public class MainActivity extends BaseActivity implements MainView {
 
     @Override
     protected void setupInjector() {
-        File cacheFile = new File(getCacheDir(), "responses");
-        component = DaggerActivityComponent.builder()
-                .networkModule(new NetworkModule(cacheFile))
-                .handlerModule(new HandlerModule())
-                .build();
+        component = ((DatabaseExtensionApplication) getApplication()).getComponent();
 
         component.inject(this);
 
