@@ -19,6 +19,7 @@ import shawn.c4q.nyc.newstimex.ui.base.BasePresenter;
 public class MainPresenter extends BasePresenter<MainView> {
 
     private static final String TAG = "Error tag";
+    private static final String ENGLISH_LANGUAGE_CONTSTANT = "en";
     private NewsApi newsClient;
     private CompositeDisposable disposable = new CompositeDisposable();
 
@@ -42,7 +43,7 @@ public class MainPresenter extends BasePresenter<MainView> {
     }
 
     private void loadNews(){
-        Observable<SourcesResponse> obs = newsClient.fetchNewsSources();
+        Observable<SourcesResponse> obs = newsClient.getNewsSourcesWithLanguage(ENGLISH_LANGUAGE_CONTSTANT);
         disposable.add(obs.subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(this::onWinning, this::onErroring));

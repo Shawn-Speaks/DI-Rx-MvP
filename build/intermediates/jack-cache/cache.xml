@@ -2,10 +2,10 @@
 <items version="2" >
 
     <item
-        jar="/Users/shawnspeaks/Library/Android/sdk/platforms/android-25/android.jar"
+        jar="/Users/shawnspeaks/.android/build-cache/8b860897f7e13b248819b2e656bf64a0435c804f/output/jars/classes.jar"
         revision="25.0.2"
-        sha1="712a0312fe844a21a1b3812fa960c363a1578984">
-        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackRuntimeLibraries/debug/jars/8000/40/android-6ead90485c628b75906378a9fd8083193529744f.jar" />
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-fa024a6b9eb433f2bbefcc301d04e2f42505582b.jar" />
     </item>
     <item
         jar="/Users/shawnspeaks/.android/build-cache/3f54890741a75c5d22c1c55aa4425f8d3ff44bc9/output/jars/classes.jar"
@@ -14,70 +14,16 @@
         <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-f248fba32485d217577b0414199ef55e5abd6f90.jar" />
     </item>
     <item
+        jar="/Users/shawnspeaks/Library/Android/sdk/platforms/android-25/android.jar"
+        revision="25.0.2"
+        sha1="712a0312fe844a21a1b3812fa960c363a1578984">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackRuntimeLibraries/debug/jars/8000/40/android-6ead90485c628b75906378a9fd8083193529744f.jar" />
+    </item>
+    <item
         jar="/Users/shawnspeaks/.android/build-cache/22612bcf338646fbdc06ed8831d44280322ef808/output/jars/classes.jar"
         revision="25.0.2"
         sha1="95519720620b553f63afc789beba9ad582807f7c">
         <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-e03ec7e4233f6742752d2baa6bb617e1f0673a6d.jar" />
-    </item>
-    <item
-        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.2/2bf96b7aa8b611c177d329452af1dc933e14501c/commons-cli-1.2.jar"
-        revision="25.0.2"
-        sha1="2bf96b7aa8b611c177d329452af1dc933e14501c">
-        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/commons-cli-1.2-4936b6b636fb444910daaa588af2edf864afa8ee.jar" />
-    </item>
-    <item
-        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/disklrucache/4.0.0-RC0/46d23cdc19155c5f0d47ece99ca1c421346c1509/disklrucache-4.0.0-RC0.jar"
-        revision="25.0.2"
-        sha1="46d23cdc19155c5f0d47ece99ca1c421346c1509">
-        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/disklrucache-4.0.0-RC0-ee38cfebabc09e53f1fd8b1ddca2c57e8a819cfd.jar" />
-    </item>
-    <item
-        jar="/Users/shawnspeaks/.android/build-cache/8b860897f7e13b248819b2e656bf64a0435c804f/output/jars/classes.jar"
-        revision="25.0.2"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-fa024a6b9eb433f2bbefcc301d04e2f42505582b.jar" />
-    </item>
-    <item
-        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.5.1/bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc/butterknife-annotations-8.5.1.jar"
-        revision="25.0.2"
-        sha1="bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc">
-        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/butterknife-annotations-8.5.1-bfb1e7d99c3a27b82c01b50d083c7d50c6968412.jar" />
-    </item>
-    <item
-        jar="/Users/shawnspeaks/.android/build-cache/fc78f8ac187d110bcbbc704ce84775426ef8896e/output/jars/classes.jar"
-        revision="25.0.2"
-        sha1="50a9ed5f12a9c5edfc99f3a051d9f5f93d2daf22">
-        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-b9aedaafb5d6cb4323467ef50b98b30b3e2d1efb.jar" />
-    </item>
-    <item
-        jar="/Users/shawnspeaks/.android/build-cache/674b08c8f27d2183562610c63d98a9e077f75620/output/jars/classes.jar"
-        revision="25.0.2"
-        sha1="19f281a785ca0eb5f6799fc7bf7ca199a9ca1e8b">
-        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-83983ef738d5d09182ff3ac0ea804c703e89e0ab.jar" />
-    </item>
-    <item
-        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.0/14b8c877d98005ba3941c9257cfe09f6ed0e0d74/reactive-streams-1.0.0.jar"
-        revision="25.0.2"
-        sha1="14b8c877d98005ba3941c9257cfe09f6ed0e0d74">
-        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/reactive-streams-1.0.0-1c53934dca8457fae6767a7e99deef7865f81126.jar" />
-    </item>
-    <item
-        jar="/Users/shawnspeaks/.android/build-cache/34d10aed6fc8bbb623d19dfdbc9564313e3b5742/output/jars/classes.jar"
-        revision="25.0.2"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-503b4146b8e32dfcd73db6ee80a8e2ef7f59f818.jar" />
-    </item>
-    <item
-        jar="/Users/shawnspeaks/.android/build-cache/cd4ff2bad775d499cc8a69130367fce6d4592563/output/jars/classes.jar"
-        revision="25.0.2"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-f3dc97c24d3a22830429116e10abd5f9080ca835.jar" />
-    </item>
-    <item
-        jar="/Users/shawnspeaks/.android/build-cache/a1dc63e11421d594d0d8abfdf3f76f68802cb756/output/jars/classes.jar"
-        revision="25.0.2"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-3faa664d61125f5a1f9940b6127932050f433d64.jar" />
     </item>
     <item
         jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/javax.annotation/jsr250-api/1.0/5025422767732a1ab45d93abfea846513d742dcf/jsr250-api-1.0.jar"
@@ -86,16 +32,10 @@
         <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackRuntimeLibraries/debug/jars/8000/40/jsr250-api-1.0-4eb672f89f7c5f50d4d1a69364d0c4068d83d293.jar" />
     </item>
     <item
-        jar="/Users/shawnspeaks/.android/build-cache/1e9cc8451ca0e19d7f645cdaff6233f44cea093e/output/jars/classes.jar"
+        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.5.1/bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc/butterknife-annotations-8.5.1.jar"
         revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-5f51171e55edbff9f6b4ed7fbc9ead31330714c0.jar" />
-    </item>
-    <item
-        jar="/Users/shawnspeaks/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
-        revision="25.0.2"
-        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/support-annotations-25.3.1-28ab685643c51640fa381c29be922521a266faa1.jar" />
+        sha1="bb67dad90bab7cd77a8f7f1b8442b47e3a2326bc">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/butterknife-annotations-8.5.1-bfb1e7d99c3a27b82c01b50d083c7d50c6968412.jar" />
     </item>
     <item
         jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/annotations/4.0.0-RC0/d5dd0afc50069b7fa0fc12ac85f91efa8df4db67/annotations-4.0.0-RC0.jar"
@@ -104,28 +44,22 @@
         <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/annotations-4.0.0-RC0-7e65f775250a8fa24b23cc6f81e99d408ba874f9.jar" />
     </item>
     <item
-        jar="/Users/shawnspeaks/.android/build-cache/5fd478c4a9e4adafef09ad955992c75f2db1e8bd/output/jars/classes.jar"
+        jar="/Users/shawnspeaks/.android/build-cache/cd4ff2bad775d499cc8a69130367fce6d4592563/output/jars/classes.jar"
         revision="25.0.2"
-        sha1="26b6f0185cbba8917ba9d9d0bd170f95311622ab">
-        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-8e3d9729918c5404a92eabb17aa4833c465e5bd2.jar" />
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-f3dc97c24d3a22830429116e10abd5f9080ca835.jar" />
     </item>
     <item
-        jar="/Users/shawnspeaks/.android/build-cache/0d4920ed5a81fc1eda3fc702d6a72cf3caf8b42a/output/jars/classes.jar"
+        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.1.1/67ff45d9ae02e583d0f9b3432a5ebbe05c30c966/javawriter-2.1.1.jar"
         revision="25.0.2"
-        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
-        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-6509f714f99e97cd5e677d659a98d599cd122562.jar" />
+        sha1="67ff45d9ae02e583d0f9b3432a5ebbe05c30c966">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/androidTest/debug/jars/8000/1f/javawriter-2.1.1-48b5ae897aaa3bb153ee2f6dd3b8eeb63bc1d7b1.jar" />
     </item>
     <item
-        jar="/Users/shawnspeaks/.android/build-cache/d6156511b213641017c6994262b356573d781845/output/jars/classes.jar"
+        jar="/Users/shawnspeaks/.android/build-cache/c37c1a39eaa1658c34674495fdf9948548212ce0/output/jars/classes.jar"
         revision="25.0.2"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-267d7f01a6bf123e68f072e651fef8673ee93116.jar" />
-    </item>
-    <item
-        jar="/Users/shawnspeaks/.android/build-cache/d215db20070137bc6b631479f5a60394951b9a66/output/jars/classes.jar"
-        revision="25.0.2"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-563cfa9ad5c638c9a8ed12b94470c671039c023d.jar" />
+        sha1="796f9229948e907471c5595fbe94655ccf03ff73">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/androidTest/debug/jars/8000/1f/classes-3037fe600cc3257378afd17bed4b945a01fb0472.jar" />
     </item>
     <item
         jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.7.2/20f6463eb19ac61960c5d91a094c2f4f0727dc2e/okhttp-2.7.2.jar"
@@ -134,16 +68,22 @@
         <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/okhttp-2.7.2-68108a601979c62b6d56771de5b8a98780b17467.jar" />
     </item>
     <item
+        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        revision="25.0.2"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/gson-2.7-ea081a3d9eaac633830bacc1293abd7a2225aa49.jar" />
+    </item>
+    <item
+        jar="/Users/shawnspeaks/.android/build-cache/d6156511b213641017c6994262b356573d781845/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-267d7f01a6bf123e68f072e651fef8673ee93116.jar" />
+    </item>
+    <item
         jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.3.0/bcacde6a8ccedcc56c127403d26b76072fe6214d/retrofit-2.3.0.jar"
         revision="25.0.2"
         sha1="bcacde6a8ccedcc56c127403d26b76072fe6214d">
         <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/retrofit-2.3.0-16b035ed9ce21bd00cc34d6a6f50d15b56aa9ac5.jar" />
-    </item>
-    <item
-        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/4.0.0-RC0/eb86cd1d96acc30dcebf338abaf2c62ca28bf355/glide-4.0.0-RC0.jar"
-        revision="25.0.2"
-        sha1="eb86cd1d96acc30dcebf338abaf2c62ca28bf355">
-        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/glide-4.0.0-RC0-4e85ee216f1b84dd1186aefce57a0780f8f80724.jar" />
     </item>
     <item
         jar="/Users/shawnspeaks/.android/build-cache/437d643af736351d7dd907a1ed0b7288107ee16d/output/jars/classes.jar"
@@ -152,34 +92,22 @@
         <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-19f044fec99bdbc749910f32789db10501cecfc3.jar" />
     </item>
     <item
-        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jar="/Users/shawnspeaks/.android/build-cache/4f00ebfd733bf87b09098006d862dad5e6aa904b/output/jars/classes.jar"
         revision="25.0.2"
-        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
-        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/gson-2.7-ea081a3d9eaac633830bacc1293abd7a2225aa49.jar" />
+        sha1="d115b0e9e1501135fe91254ba884fcbd83d374c0">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/androidTest/debug/jars/8000/1f/classes-40d765311a81b3c0d28ae4f43f562204ebd6f348.jar" />
     </item>
     <item
-        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/gifdecoder/4.0.0-RC0/c64f5d4805b528de434a5a8bb9a8091b6f9cd1a7/gifdecoder-4.0.0-RC0.jar"
+        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-integration/1.3/5de0c73fef18917cd85d0ab70bb23818685e4dfd/hamcrest-integration-1.3.jar"
         revision="25.0.2"
-        sha1="c64f5d4805b528de434a5a8bb9a8091b6f9cd1a7">
-        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/gifdecoder-4.0.0-RC0-54e464cddea164edd71a04859708c45fb4c5896c.jar" />
+        sha1="5de0c73fef18917cd85d0ab70bb23818685e4dfd">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/androidTest/debug/jars/8000/1f/hamcrest-integration-1.3-e50c95691c732e66a3d8e417a6d2794df58bcc15.jar" />
     </item>
     <item
-        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/nl.qbusict/cupboard/2.1.4/ba5bc66fad1fc20aeb8a74f0013b04185fd9a3a9/cupboard-2.1.4.jar"
+        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.0/14b8c877d98005ba3941c9257cfe09f6ed0e0d74/reactive-streams-1.0.0.jar"
         revision="25.0.2"
-        sha1="ba5bc66fad1fc20aeb8a74f0013b04185fd9a3a9">
-        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/cupboard-2.1.4-f902c5e510e833f22991b9da21de95d6a7394074.jar" />
-    </item>
-    <item
-        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
-        revision="25.0.2"
-        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
-        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/okio-1.13.0-7b145914e26072d00b2ac26f932c0f6b347d2f9f.jar" />
-    </item>
-    <item
-        jar="/Users/shawnspeaks/.android/build-cache/8ae2e4dd850aaf7e3a5571edf843859b5e53a04b/output/jars/classes.jar"
-        revision="25.0.2"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-59bf166146f9d648b4e0c740cd228b3515d3fba0.jar" />
+        sha1="14b8c877d98005ba3941c9257cfe09f6ed0e0d74">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/reactive-streams-1.0.0-1c53934dca8457fae6767a7e99deef7865f81126.jar" />
     </item>
     <item
         jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.8.0/5a11f020cce2d11eb71ba916700600e18c4547e7/okhttp-3.8.0.jar"
@@ -188,28 +116,10 @@
         <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/okhttp-3.8.0-c18b36566e85f7558d5cca3eec1ee5a667b065e5.jar" />
     </item>
     <item
-        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
+        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar"
         revision="25.0.2"
-        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
-        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/jsr305-2.0.1-7f8ccf0d9638ae6b240275eeacdb53fee138a637.jar" />
-    </item>
-    <item
-        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.9/75a739e59d7ede2f7f425f369955bdd1c2ac122b/dagger-2.9.jar"
-        revision="25.0.2"
-        sha1="75a739e59d7ede2f7f425f369955bdd1c2ac122b">
-        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/dagger-2.9-6b1d9918e5da91b1a8b3dc700d823de7d2fda255.jar" />
-    </item>
-    <item
-        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.2.0/a09926806199499a20b2f5168779499abfa33342/converter-gson-2.2.0.jar"
-        revision="25.0.2"
-        sha1="a09926806199499a20b2f5168779499abfa33342">
-        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/converter-gson-2.2.0-20c5e0bca8bb58c461c8afad2841fea0025b23b1.jar" />
-    </item>
-    <item
-        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
-        revision="25.0.2"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/javax.inject-1-30f790062b9103f571841e654a30ccc8cf432ef4.jar" />
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/androidTest/debug/jars/8000/1f/hamcrest-core-1.3-1aadcfcdefb7cf1517d128d21cbe06a39351cd5f.jar" />
     </item>
     <item
         jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.0.1/57f850a6b317e5582f1dbaff10a9e7d7e1fcdcfb/rxjava-2.0.1.jar"
@@ -224,10 +134,166 @@
         <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackRuntimeLibraries/debug/jars/8000/40/org.apache.http.legacy-1371e7d5d698c13bf429cc47324254526dd05353.jar" />
     </item>
     <item
+        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.2.0/a09926806199499a20b2f5168779499abfa33342/converter-gson-2.2.0.jar"
+        revision="25.0.2"
+        sha1="a09926806199499a20b2f5168779499abfa33342">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/converter-gson-2.2.0-20c5e0bca8bb58c461c8afad2841fea0025b23b1.jar" />
+    </item>
+    <item
         jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava2/2.3.0/f436637f9500ab5b8bc32afe556373180894b4a5/adapter-rxjava2-2.3.0.jar"
         revision="25.0.2"
         sha1="f436637f9500ab5b8bc32afe556373180894b4a5">
         <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/adapter-rxjava2-2.3.0-cd0e024709cd49eda42670dc2f153d0ca75e4cbd.jar" />
+    </item>
+    <item
+        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar"
+        revision="25.0.2"
+        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/androidTest/debug/jars/8000/1f/junit-4.12-b08e67dfd6dbb8d4335ec6cf6b0cbdc276e62e5a.jar" />
+    </item>
+    <item
+        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/4785a3c21320980282f9f33d0d1264a69040538f/hamcrest-library-1.3.jar"
+        revision="25.0.2"
+        sha1="4785a3c21320980282f9f33d0d1264a69040538f">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/androidTest/debug/jars/8000/1f/hamcrest-library-1.3-c7df91fa38ee34c2f97c38cada6c2bb3ea2588e0.jar" />
+    </item>
+    <item
+        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/disklrucache/4.0.0-RC0/46d23cdc19155c5f0d47ece99ca1c421346c1509/disklrucache-4.0.0-RC0.jar"
+        revision="25.0.2"
+        sha1="46d23cdc19155c5f0d47ece99ca1c421346c1509">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/disklrucache-4.0.0-RC0-ee38cfebabc09e53f1fd8b1ddca2c57e8a819cfd.jar" />
+    </item>
+    <item
+        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/commons-cli/commons-cli/1.2/2bf96b7aa8b611c177d329452af1dc933e14501c/commons-cli-1.2.jar"
+        revision="25.0.2"
+        sha1="2bf96b7aa8b611c177d329452af1dc933e14501c">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/commons-cli-1.2-4936b6b636fb444910daaa588af2edf864afa8ee.jar" />
+    </item>
+    <item
+        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/gifdecoder/4.0.0-RC0/c64f5d4805b528de434a5a8bb9a8091b6f9cd1a7/gifdecoder-4.0.0-RC0.jar"
+        revision="25.0.2"
+        sha1="c64f5d4805b528de434a5a8bb9a8091b6f9cd1a7">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/gifdecoder-4.0.0-RC0-54e464cddea164edd71a04859708c45fb4c5896c.jar" />
+    </item>
+    <item
+        jar="/Users/shawnspeaks/.android/build-cache/674b08c8f27d2183562610c63d98a9e077f75620/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="19f281a785ca0eb5f6799fc7bf7ca199a9ca1e8b">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-83983ef738d5d09182ff3ac0ea804c703e89e0ab.jar" />
+    </item>
+    <item
+        jar="/Users/shawnspeaks/.android/build-cache/a1dc63e11421d594d0d8abfdf3f76f68802cb756/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-3faa664d61125f5a1f9940b6127932050f433d64.jar" />
+    </item>
+    <item
+        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/4.0.0-RC0/eb86cd1d96acc30dcebf338abaf2c62ca28bf355/glide-4.0.0-RC0.jar"
+        revision="25.0.2"
+        sha1="eb86cd1d96acc30dcebf338abaf2c62ca28bf355">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/glide-4.0.0-RC0-4e85ee216f1b84dd1186aefce57a0780f8f80724.jar" />
+    </item>
+    <item
+        jar="/Users/shawnspeaks/.android/build-cache/fc78f8ac187d110bcbbc704ce84775426ef8896e/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="50a9ed5f12a9c5edfc99f3a051d9f5f93d2daf22">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-b9aedaafb5d6cb4323467ef50b98b30b3e2d1efb.jar" />
+    </item>
+    <item
+        jar="/Users/shawnspeaks/.android/build-cache/34d10aed6fc8bbb623d19dfdbc9564313e3b5742/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-503b4146b8e32dfcd73db6ee80a8e2ef7f59f818.jar" />
+    </item>
+    <item
+        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.2/479c1e06db31c432330183f5cae684163f186146/javax.annotation-api-1.2.jar"
+        revision="25.0.2"
+        sha1="479c1e06db31c432330183f5cae684163f186146">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/androidTest/debug/jars/8000/1f/javax.annotation-api-1.2-a648e17ada35296c7cb427913e37b51ffc28d68b.jar" />
+    </item>
+    <item
+        jar="/Users/shawnspeaks/.android/build-cache/1e9cc8451ca0e19d7f645cdaff6233f44cea093e/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-5f51171e55edbff9f6b4ed7fbc9ead31330714c0.jar" />
+    </item>
+    <item
+        jar="/Users/shawnspeaks/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/support-annotations-25.3.1-28ab685643c51640fa381c29be922521a266faa1.jar" />
+    </item>
+    <item
+        jar="/Users/shawnspeaks/.android/build-cache/e3146070e597da211e1e5ea3255e0b87e4adcdb8/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="7e11799d8a26bfa5d48acafe012ee5545b9bf468">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/androidTest/debug/jars/8000/1f/classes-1042f3d9a91bc5f7f05d7649a2b6d29e09060bb8.jar" />
+    </item>
+    <item
+        jar="/Users/shawnspeaks/.android/build-cache/d8d64c0fd099ee50adc9cc1c5f19af256cfb1cbc/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="a890ee8445927649d9ed50f625a315d8758688be">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/androidTest/debug/jars/8000/1f/classes-c96f1443d225c4ac8076ea9b3a31713cfeaf507f.jar" />
+    </item>
+    <item
+        jar="/Users/shawnspeaks/.android/build-cache/0d4920ed5a81fc1eda3fc702d6a72cf3caf8b42a/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-6509f714f99e97cd5e677d659a98d599cd122562.jar" />
+    </item>
+    <item
+        jar="/Users/shawnspeaks/.android/build-cache/5fd478c4a9e4adafef09ad955992c75f2db1e8bd/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="26b6f0185cbba8917ba9d9d0bd170f95311622ab">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-8e3d9729918c5404a92eabb17aa4833c465e5bd2.jar" />
+    </item>
+    <item
+        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
+        revision="25.0.2"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/jsr305-2.0.1-7f8ccf0d9638ae6b240275eeacdb53fee138a637.jar" />
+    </item>
+    <item
+        jar="/Users/shawnspeaks/.android/build-cache/d215db20070137bc6b631479f5a60394951b9a66/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-563cfa9ad5c638c9a8ed12b94470c671039c023d.jar" />
+    </item>
+    <item
+        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/nl.qbusict/cupboard/2.1.4/ba5bc66fad1fc20aeb8a74f0013b04185fd9a3a9/cupboard-2.1.4.jar"
+        revision="25.0.2"
+        sha1="ba5bc66fad1fc20aeb8a74f0013b04185fd9a3a9">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/cupboard-2.1.4-f902c5e510e833f22991b9da21de95d6a7394074.jar" />
+    </item>
+    <item
+        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        revision="25.0.2"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/okio-1.13.0-7b145914e26072d00b2ac26f932c0f6b347d2f9f.jar" />
+    </item>
+    <item
+        jar="/Users/shawnspeaks/.android/build-cache/1e4fd3cd9c2c8e6490e9b8ba61654c58fbf9c4c2/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="905f3e63973d47fedf2d945fa31d8c0f0c98816e">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/androidTest/debug/jars/8000/1f/classes-62a90f577e0cbbead6a3cc2382bbf7ab0e6721b7.jar" />
+    </item>
+    <item
+        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.9/75a739e59d7ede2f7f425f369955bdd1c2ac122b/dagger-2.9.jar"
+        revision="25.0.2"
+        sha1="75a739e59d7ede2f7f425f369955bdd1c2ac122b">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/dagger-2.9-6b1d9918e5da91b1a8b3dc700d823de7d2fda255.jar" />
+    </item>
+    <item
+        jar="/Users/shawnspeaks/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        revision="25.0.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/javax.inject-1-30f790062b9103f571841e654a30ccc8cf432ef4.jar" />
+    </item>
+    <item
+        jar="/Users/shawnspeaks/.android/build-cache/8ae2e4dd850aaf7e3a5571edf843859b5e53a04b/output/jars/classes.jar"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/shawnspeaks/Desktop/PersonalProject/NewsTimeX/app/build/intermediates/transforms/preJackPackagedLibraries/debug/jars/8000/1f/classes-59bf166146f9d648b4e0c740cd228b3515d3fba0.jar" />
     </item>
 
 </items>
