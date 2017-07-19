@@ -6,7 +6,6 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 
@@ -43,7 +42,8 @@ public class NewsHolder extends RecyclerView.ViewHolder{
         itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(context, source.getName(), Toast.LENGTH_SHORT).show();
+//                Toast.makeText(context, source.getName(), Toast.LENGTH_SHORT).show();
+//                Intent intent = new Intent(this, ArticleActivity.class);
             }
         });
 

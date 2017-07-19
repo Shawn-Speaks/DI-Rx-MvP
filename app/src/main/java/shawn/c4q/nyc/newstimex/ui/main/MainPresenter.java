@@ -32,8 +32,6 @@ public class MainPresenter extends BasePresenter<MainView> {
     public void initialize() {
         view.showLoading();
         loadNews();
-//        data subscription here
-
     }
 
     @Override
